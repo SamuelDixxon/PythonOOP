@@ -9,10 +9,11 @@ class Stock():
 
     # getter methods / setter methods
 
-    def getinfo(self):
-        a = [self.ticker, self.priceCurr, self.exists, self.hasDiv]
-        for i in range(len(a)-1):
-            printf("{}".format(a[i]+"\n"))
+    def __str__(self):
+        print(f"ticker: {self.ticker}")
+        print(f"current price: {self.priceCurr}")
+        print(f"exists: {self.exists}")
+        print(f"has dividend: {self.hasDiv}")
 
     def getpriceCurr(self):
         return self.priceCurr
