@@ -15,6 +15,8 @@ class Stock:
         for key, val in a.items():
             print("{} {}".format(key, val))
 
+ # test
+
     def __str__(self):
         print(f"ticker: {self.ticker}")
         print(f"current price: {self.priceCurr}")
