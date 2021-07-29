@@ -15,7 +15,7 @@ class Stock:
         for key, val in a.items():
             print("{} {}".format(key, val))
 
- # test
+ # test 123
 
     def __str__(self):
         print(f"ticker: {self.ticker}")
