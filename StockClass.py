@@ -18,10 +18,7 @@ class Stock:
  # test 123
 
     def __str__(self):
-        print(f"ticker: {self.ticker}")
-        print(f"current price: {self.priceCurr}")
-        print(f"exists: {self.exists}")
-        print(f"has dividend: {self.hasDiv}")
+        return f"""ticker: {self.ticker} \ncurrent price: {self.priceCurr} \nexists: {self.exists} \nhas dividend: {self.hasDiv}"""
 
     def getpriceCurr(self):
         return self.priceCurr
